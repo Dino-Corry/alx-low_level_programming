@@ -3,9 +3,11 @@
 #include <stdio.h>
 
 /**
- * more headers goes there
+ * main - entry point
  *
- * betty style doc for function main goes there
+ * Description: betty style doc for function main goes there
+ *
+ *Return: always 0
  *
  */
 
