@@ -7,8 +7,12 @@
  */
 int main(void)
 {
-_putchar("_put");
-_putchar("char");
+char word(8), _putchar;
+int i;
+ if (i = 0, i < 8; i++)
+{
+_putchar(word(i));
+}
 _putchar("\n");
 return 0;
 }
