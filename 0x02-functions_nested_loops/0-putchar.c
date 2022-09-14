@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
  /** main - entry point
  *
  * Description: _putchar programe
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-putchar("_putchar");
+_putchar("_putchar");
 return 0;
 }
