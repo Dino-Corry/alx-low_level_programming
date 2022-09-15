@@ -1,12 +1,14 @@
 #include "main.h"
- /*
- * main - entry point
+
+ /**
+ * main - main function
  *
- * Description: _putchar programe
+ * Description: It prints the word _putchar to stdout, followed by a new line
  *
- * Return: always 0
+ * Return: Always 0 (Success)
  */
-int main(void) /* Description: main void */
+
+int main(void)
 {
 char words[8] = "_putchar";
 int i;
