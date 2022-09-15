@@ -12,7 +12,7 @@ char words[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for (i = 0; i < 26; i++)
 {
-_putchar(words[i]10);
+_putchar(10, words[i]);
 }
 _putchar('\n');
 }
