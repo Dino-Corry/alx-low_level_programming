@@ -1,8 +1,8 @@
 #include "main.h"
 
  /**
- * main - main function
- *
+ * main - entry point
+ * main: entry
  * Description: It prints the word _putchar to stdout, followed by a new line
  *
  * Return: Always 0 (Success)
