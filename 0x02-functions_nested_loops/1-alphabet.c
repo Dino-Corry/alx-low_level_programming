@@ -15,5 +15,4 @@ for (i = 0; i < 26; i++)
 _putchar(words[i]);
 }
 _putchar('\n');
-return (0);
 }
