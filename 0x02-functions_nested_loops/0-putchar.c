@@ -1,5 +1,5 @@
 #include "main.h"
- /** main - entry point
+ /* main - entry point
  *
  * Description: _putchar programe
  *
@@ -16,5 +16,5 @@ _putchar(words[i]);
 
 _putchar('\n');
 
- return (0);
+return (0);
 }
