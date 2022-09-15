@@ -2,12 +2,11 @@
 /**
  * main - entry point
  *
- * description: Program description
+ * description: print_alphabet
  *
  * Return: always 0
  */
 void print_alphabet(void)
-/* description: Program description */
 {
 char words[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
