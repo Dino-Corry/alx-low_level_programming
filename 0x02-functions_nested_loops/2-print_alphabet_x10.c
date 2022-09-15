@@ -9,16 +9,15 @@
 void print_alphabet_x10(void)
 {
 char words[26] = "abcdefghijklmnopqrstuvwxyz";
-int i = 0, k;
-while (i < 26)
+int i;
+int j = 0;
+while (j < 10)
 {
-k = 0;
-while(k > 10)
+for (i = 0; i < 26; i++)
 {
 _putchar(words[i]);
-k++;
-_putchar('\n');
 }
-i++;
+_putchar('\n');
+j += 1;
 }
 }
