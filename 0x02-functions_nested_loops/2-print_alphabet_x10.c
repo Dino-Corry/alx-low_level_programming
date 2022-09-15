@@ -13,12 +13,12 @@ int i = 0, k;
 while (i < 26)
 {
 k = 0;
-while(k>10)
+while(k > 10)
 {
 _putchar(words[i]);
 k++;
 }
+_putchar('\n');
 i++;
 }
-_putchar('\n');
 }
