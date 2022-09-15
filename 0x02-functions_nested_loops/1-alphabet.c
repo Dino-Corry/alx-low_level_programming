@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main - standout output
+ * print_alphabet - write a to z
  * Description: programe to print a to z
- * print_alphabet(:) write 
+ * print_alphabet: write
+ *
  * return: 0
  */
 void print_alphabet(void)
