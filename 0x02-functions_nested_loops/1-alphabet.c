@@ -2,8 +2,8 @@
 /**
  * main - standout output
  * Description: programe to print a to z
- * void print_alphabet - write 
- * print_alphabet - write again
+ * print_alphabet(:) write 
+ * return: 0
  */
 void print_alphabet(void)
 {
