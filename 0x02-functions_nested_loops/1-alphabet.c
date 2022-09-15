@@ -8,9 +8,12 @@
  */
 void print_alphabet(void)
 {
-  int n;
-for (n = 'a'; n <= 'z'; n++)
-_putchar(n);
+char words[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
+for (i = 0; i < 26; i++)
+{
+_putchar(words[i]);
+}
 _putchar('\n');
 return (0);
 }
