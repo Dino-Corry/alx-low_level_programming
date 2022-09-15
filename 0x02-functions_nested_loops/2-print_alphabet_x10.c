@@ -17,8 +17,8 @@ while(k > 10)
 {
 _putchar(words[i]);
 k++;
-}
 _putchar('\n');
+}
 i++;
 }
 }
