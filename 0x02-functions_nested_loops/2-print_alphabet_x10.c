@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 {
 char words[26] = "abcdefghijklmnopqrstuvwxyz";
 int i = 0, k;
-while (i < 26; i++)
+while (i < 26)
 {
 k = 0;
 while(k>10)
