@@ -1,5 +1,6 @@
 #include "main.h"
- /* main - entry point
+ /* 
+ * main - entry point
  *
  * Description: _putchar programe
  *
