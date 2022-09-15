@@ -4,7 +4,7 @@
  * Description: programe to print a to z
  * main: write
  *
- * return: 0
+ * Return: always 0
  */
 
 int main(void)
