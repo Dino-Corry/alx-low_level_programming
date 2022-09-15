@@ -1,11 +1,10 @@
 #include "main.h"
-
- /**
- * main - entry point
- * main: entry
- * Description: It prints the word _putchar to stdout, followed by a new line
+/**
+ * main - write a to z
+ * Description: programe to print a to z
+ * main: write
  *
- * Return: Always 0 (Success)
+ * return: 0
  */
 
 int main(void)
