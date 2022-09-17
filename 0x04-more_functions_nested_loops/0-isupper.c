@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * main - Entry point
 *
@@ -7,7 +8,8 @@
 int main(void)
 {
  char c;
- if (c = 'A')
+ c = 'A'
+ if (c = 'A'; c < 'Z' c++)
  {
  printf("%c: %d\n", c, _isupper(c));
  return (1);
