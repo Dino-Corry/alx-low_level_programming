@@ -3,7 +3,7 @@
 /**
  * print_numbers - programe to multiplies
  * @a: An integer a
- * Description: Function that adds two integers and returns the result
+ * Description: print numbers
  *
  * Return: Always 0
  */
