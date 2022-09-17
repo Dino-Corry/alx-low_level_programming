@@ -9,6 +9,6 @@ int _isdigit(int c)
 {
 if (c >= 0)
 return (1);
-else if (c >= 'a' && c <= 'z')
+else (c >= 'a' && c <= 'z')
 return (0);
 }
