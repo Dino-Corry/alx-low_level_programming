@@ -8,8 +8,8 @@
 */
 int _isdigit(int c)
 {
-if (c >= 0)
+if (c = 0 || c >= 1)
 return (1);
-else (c >= 'a')
+else (c >= 'a' || c >= 'A')
 return (0);
 }
