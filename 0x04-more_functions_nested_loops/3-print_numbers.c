@@ -9,8 +9,7 @@
 void print_numbers(void)
 {
 int a;
-if (a >= 0 && a <= 9; a++)
-printf("%d\n" a);
-else
+for (a = 0; a <= 9; a++)
+putchar("%d\n" a);
 return (0);
 }
