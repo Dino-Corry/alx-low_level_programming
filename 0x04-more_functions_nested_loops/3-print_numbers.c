@@ -9,7 +9,8 @@
 void print_numbers(void)
 {
 int a;
-if (a <= 9; a++)
+if (a >= 0 && a <= 9; a++)
 printf("%d\n" a);
+else
 return (0);
 }
