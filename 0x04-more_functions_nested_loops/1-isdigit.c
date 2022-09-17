@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * _isdigit - uppercase letters
 * @c: character to check
@@ -9,6 +10,6 @@ int _isdigit(int c)
 {
 if (c >= 0)
 return (1);
-else (c >= 'a' && c <= 'z')
+else (c >= 'a')
 return (0);
 }
