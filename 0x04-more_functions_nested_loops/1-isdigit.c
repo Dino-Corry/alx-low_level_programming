@@ -10,6 +10,6 @@ int _isdigit(int c)
 {
 if (c >= 0)
 return (1);
-else (c >= 'a' || c >= 'A')
+else if(c >= 'a' || c >= 'A')
 return (0);
 }
