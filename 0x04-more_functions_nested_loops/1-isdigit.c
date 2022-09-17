@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
-* _isdigit - uppercase letters
+* _isdigit - checks for a digit
 * @c: character to check
 *
+* Documentation - checks
 * Return: 0 or 1
 */
+
 int _isdigit(int c)
 {
 if (c >= 0)
