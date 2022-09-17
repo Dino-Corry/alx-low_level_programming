@@ -9,11 +9,9 @@
  */
 
 void print_numbers(void)
-{
 int a;
 for (a = 48; a <= 57; a++)
 {
 putchar(a);
 }
 putchar(10);
-}
