@@ -4,7 +4,7 @@
 /**
  * reset_to_98 - printing the size, in bytes, of a pointer
  *
- * @n - variable
+ * @n: variable
  * Return: Always 0.
  */
 
