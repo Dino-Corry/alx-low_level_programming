@@ -2,19 +2,21 @@
 #include "main.h"
 
 /**
- * _strlen - printing the size, in bytes, of a pointer
+ * _strlen - return the length of string
  *
- * @s: variable
- * Return: Always 0.
+ * @s: string to evaluate
+ * Return: return the length
  */
 
 int _strlen(char *s)
 {
-char *str;
+int c;
 
-*str = my_first_strlen!;
-s = _strlen(str);
-printf("%d\n", len);
-return (0);
+c = 0;
 
+while (s[i] != '\0')
+{
+i++;
+}
+return (i);
 }
