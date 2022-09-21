@@ -10,6 +10,7 @@
 
 int _strlen(char *s)
 {
+char *str;
 int len;
 
 *s = My first strlen!;
