@@ -14,9 +14,9 @@ int c;
 
 c = 0;
 
-while (s[i] != '\0')
+while (s[c] != '\0')
 {
-i++;
+c++;
 }
-return (i);
+return (c);
 }
