@@ -11,10 +11,9 @@
 int _strlen(char *s)
 {
 char *str;
-int len;
 
-*str = my first strlen!;
-len = _strlen(str);
+*str = my_first_strlen!;
+s = _strlen(str);
 printf("%d\n", len);
 return (0);
 
