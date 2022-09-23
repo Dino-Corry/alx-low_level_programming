@@ -11,8 +11,8 @@
 
 int _strlen(char *s)
 {
-char *str;
+char *str = "My first strlen!";
 *s = _strlen;
-putchar("%d", _strlen(str));
+putchar("%c", _strlen(str));
 return (0);
 }
