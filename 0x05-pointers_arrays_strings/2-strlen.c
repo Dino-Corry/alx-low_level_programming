@@ -11,6 +11,6 @@
 
 int _strlen(char *s)
 char *str = "My first strlen!";
-printf("%d\n", strlen(str));
+_putchar("%d\n", strlen(str));
 return (0);
 }
