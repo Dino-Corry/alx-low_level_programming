@@ -10,7 +10,8 @@
 int _strlen(char *s)
 {
 s = 0;
-char *str = "My first strlen!";
+  while (str[!]);
+  s++;
 _putchar("%d\0", strlen(str));
-return (0);
+return (s);
 }
