@@ -10,6 +10,6 @@
 
 void _puts(char *str)
 {
-puts("%c\0", str);
+putchar("%c\0", str);
 return (0);
 }
