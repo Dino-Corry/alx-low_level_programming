@@ -10,6 +10,10 @@
 
 void _puts(char *str)
 {
-putchar("%c\0", str);
+int i = 0;
+for (; str[i]; i++)
+{
+putchar(str[i] '\n');
+}
 return (0);
 }
