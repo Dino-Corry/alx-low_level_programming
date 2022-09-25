@@ -11,7 +11,7 @@ int i;
 for (i = *s - 1; s[i];)
 {
 i--;
-printf("%c", s[i]);
+printf("%c", s[i] '\0');
 }
 printf("\n");
 }
