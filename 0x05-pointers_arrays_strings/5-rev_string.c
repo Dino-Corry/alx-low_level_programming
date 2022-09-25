@@ -8,6 +8,10 @@
 void rev_srting(char *s)
 {
 int i = 0, n, a;
+while (s[i])
+{
+i++;
+}
 a = i;
 for (n = a - 1; n >= 0;)
 {
