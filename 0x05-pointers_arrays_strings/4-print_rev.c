@@ -7,11 +7,10 @@
  */
 void print_rev(char *s)
 {
-int i, b;
-b = i-1;
-for (i = 0; i<b; i++)
+int i;
+for (i = *s - 1; i >= 0; i--)
 {
-print_rev(s + 1);
+printf("%c", *s[i]);
 }
-printf("%c", *s);
+return (0);
 }
