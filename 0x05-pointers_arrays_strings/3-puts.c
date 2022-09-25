@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 /**
-* _strlen - return the length of string
+* _puts - print a string followed by a new line
 *
-* @s: integer
+* @str: integer
 * Return: always 0
 */
 
 void _puts(char *str)
 {
-int i = 0;
-for (i; str[i]; i++)
+int i;
+for (i = 0; str[i]; i++)
 {
 putchar(str[i]);
 }
