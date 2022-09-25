@@ -8,7 +8,7 @@
 void print_rev(char *s)
 {
 int i;
-for (i = *s - 1; s[i]; i--)
+for (i = *s - 1; s[i]; i++)
 {
 printf("%c", s[i]);
 }
