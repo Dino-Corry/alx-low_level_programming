@@ -7,14 +7,12 @@
  */
 void rev_srting(char *s)
 {
-int i = 0, n, a;
-while (s[i])
+int l = strlen(s), m = l / 2;
+char temp;
+for (int i = 0; i < m; i++)
 {
-i++;
+temp = s[i];
+s[i] = s[i - i - 1];
+s[l - i - 1] = temp;
 }
-a = i;
-for (n = a - 1; n >= 0;)
-{
-n--;
-return (0);
 }
