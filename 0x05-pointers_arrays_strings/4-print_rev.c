@@ -7,7 +7,12 @@
  */
 void print_rev(char *s)
 {
+int i, a, b;
+a = strlen(s)
+b = i-1;
+for (i = 0; i<b; i++)
+{
 print_rev(s + 1);
+}
 printf("%c", *s);
-printf('\n');
 }
