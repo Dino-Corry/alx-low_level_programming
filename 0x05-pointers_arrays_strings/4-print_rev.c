@@ -6,7 +6,7 @@
  */
 void print_rev(char *s)
 {
-print_reverse(s + 1);
-printf("%c\n" *s);
+print_rev(s + 1);
+printf("%c", *s);
 return (0);
 }
