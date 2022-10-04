@@ -9,7 +9,8 @@
  *
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char* argv[])
 {
-  return 0;
+printf("%d\n", argc);
+return (0);
 }
