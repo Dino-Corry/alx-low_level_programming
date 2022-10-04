@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
 * main - Prints its name
@@ -9,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%d", argc);
+	putchar("%d", argc);
 	putchar('\n');
 
 	return (0);
