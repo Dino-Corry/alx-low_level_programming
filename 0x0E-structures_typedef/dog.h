@@ -1,5 +1,5 @@
-#ifndef _DOG_H_
-#define _DOG_H_
+#ifndef DOG_H_
+#define DOG_H_
 
 /**
  * struct dog - Dog datails
@@ -7,7 +7,7 @@
  * @age: dog age
  * @owner: dog owner
  *
- * Description: Longer description
+ * Description: just simple, no extra description
  */
 struct dog
 {
@@ -16,4 +16,4 @@ struct dog
     char *owner;
 };
 
-#endif // _DOG_H_
+#endif /*DOG_H_*/
