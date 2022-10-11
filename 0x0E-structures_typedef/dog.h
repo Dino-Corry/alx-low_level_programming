@@ -2,18 +2,19 @@
 #define DOG_H_
 
 /**
- * struct dog - Dog datails
+ * struct dog - dog details
  * @name: the name of the dog
  * @age: dog age
- * @owner: dog owner
+ * @owner: dog owners
  *
- * Description: just simple, no extra description
+ * Description: Omo abeg description here biko
  */
+
 struct dog
 {
-    char *name;
-    float age;
-    char *owner;
+  char *name;
+  float age;
+  char *owner
 };
 
 #endif /*DOG_H_*/
