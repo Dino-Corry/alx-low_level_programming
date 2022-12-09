@@ -19,6 +19,6 @@ while (current != NULL)
 next = current->next;
 sum += current->n;
 current = next;
-    }
+}
 return (sum);
 }
